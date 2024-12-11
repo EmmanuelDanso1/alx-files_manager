@@ -1,4 +1,4 @@
-// routing with controllers
+// routing with controllers folder
 const express = require('express');
 const AppController = require('../controllers/AppController');
 

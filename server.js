@@ -1,4 +1,4 @@
-// server to connect to the routes folder with index.js file
+// server to connect to the routes folder with index.js file in route
 
 const express = require('express');
 const routes = require('./routes');
