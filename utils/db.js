@@ -1,4 +1,4 @@
-// utils/db.js... Database that has the DBClient
+// Database that has the DBClient
 
 const { MongoClient } = require('mongodb');
 
