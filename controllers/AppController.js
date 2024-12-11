@@ -1,4 +1,4 @@
-// controllers connecting with redis and database
+// controllers connecting to redis and database
 
 const redisClient = require('../utils/redis');
 const dbClient = require('../utils/db');
