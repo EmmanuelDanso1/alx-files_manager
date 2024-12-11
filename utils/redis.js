@@ -42,9 +42,9 @@ class RedisClient {
         return new Promise((resolve, reject) => {
             this.client.del(key, (err) => {
                 if (err) {
-                    reject(err);
+                    reject(false);
                 } else {
-                    resolve();
+                    resolve(true);
                 }
             });
         });
